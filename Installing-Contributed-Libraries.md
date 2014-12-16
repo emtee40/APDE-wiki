@@ -21,7 +21,7 @@ If you are developing a library, you have a library that is not properly formatt
 1. If the library is in a ZIP or other type of compressed file, then extract it.
 2. Copy the extracted folder to the libraries folder in the Sketchbook folder and rename it to the desired name of the library., e.g. "path/to/Sketchbook/libraries/Ketai/".
 3. Ensure that the library JAR file is located in the "library" folder in the library's folder with the same name as the enclosing folder, e.g. "Ketai/library/Ketai.jar". Copy any additional JAR files to this folder.
-4. Optionally, ensure that the library's examples are located in the "examples" folder in the library's folder, e.g. "Ketai/examples".
+4. Optionally, ensure that the library's examples are located in the "examples" folder in the library's folder, e.g. "Ketai/examples/".
 5. Optionally, ensure that the "library.properties" file is located at the root of the library's folder, e.g. "Ketai/library.properties".
 6. Create a new folder at the same level as the "library" folder with the name "library-dex", e.g. "Ketai/library-dex/".
 7. Open APDE and navigate to (action overflow) > Tools > Import Library > Manage Libraries > (action overflow) > DX Dexer. Note: The library should already appear in the list, but it has not been fully installed yet.
