@@ -30,3 +30,17 @@ When creating passwords for both keystores and keys, make sure that they are suf
 
 ### Export Steps
 
+1. In APDE, navigate to (action overflow) > Tools > Export Signed Package.
+2. If you have already created a keystore or wish to use an existing keystore, then enter (or select with the folder button) the path to the keystore, enter the password, and skip to step 7.
+3. Select the "+" button in the top right corner to enter the keystore creation dialog.
+4. Enter (or select with the folder button) the path to the new keystore. Note: This file should not already exist. The file extension should be ".bks" for a BouncyCastle (BKS) keystore or ".jks", ".ks", ".keystore", or any other extension for a Java (JKS) keystore.
+5. Enter the keystore password. Enter it again in the confirmation field.
+6. Select "Create" to create the keystore at the specified location.
+7. If the keystore already contains a key/certificate and you do not want to create a new key/certificate, then select the key alias, enter the password, and skip to step 14.
+8. Select the "+" button to the right of the key alias field to create a new key/certificate.
+9. Enter the alias for the key. This is the required name that is publicly visible.
+10. Enter the key password. Enter it again in the confirmation field.
+11. Enter the key validity period. The key/certificate will remain usable for this many years after the key/certificate has been created. Sketches that are signed with this key will remain usable after this time period expires, but you will not be able to sign any more sketches with it. Twenty-five years is recommended.
+12. Optionally, enter the certificate information in the designated fields. If any information is not provided, its field will be automatically filled with "None". This information is publicly accessible.
+13. Select "Create" to create the key/certificate.
+14. Review the information about the selected key/certificate. The certificate information is available from the "i" button to the right of the key alias field. When you are ready, select "Export" to export the sketch to "bin/_sketchName_.apk" within the sketch folder.
