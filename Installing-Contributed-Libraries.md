@@ -11,7 +11,7 @@ Follow these instructions to install a contributed library in APDE.
 ### Properly Formatted Library
 APDE's library installer is designed to install the zipped file that would be retrieved by the library manager on the desktop. It is currently capable of installing libraries formatted as per the Processing [library folder structure specifications](https://github.com/processing/processing/wiki/Library-Guidelines#folder-structure). All libraries that are available from the library manager conform to this structure.
 
-For an example of a properly formatted library, see [Ketai](https://code.google.com/p/ketai/downloads/detail?name=Ketai_v9.zip&can=2&q=). This file, after being downloaded, is directly consumable by APDE's installer.
+For an example of a properly formatted library, see [Ketai](http://ketailibrary.org/ketai.zip). This file, after being downloaded, is directly consumable by APDE's installer.
 
 APDE's library installer takes care of extracting the folder structure and dexing the library for you.
 ## Manual Installation
