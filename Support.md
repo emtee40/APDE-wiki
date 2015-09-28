@@ -1,0 +1,7 @@
+APDE will always try to support as many devices as possible. It works on Android versions 2.3.3+ (Gingerbread) and on both ARM and x86 processors. (Note: Due to limitations with Gingerbread, not all features are supported on versions lower than 4.0, although most features should still work).
+
+APDE works on both phones and tablets, with or without hardware/external/bluetooth keyboards. Obviously, a tablet would be preferable for coding due to the screen size, but a phone is entirely workable for smaller projects. For devices without a hardware keyboard, APDE provides a special character (`{`, `;`, etc.) insertion tray to supplement the software keyboard for quicker and easier coding.
+
+APDE can store sketches on the internal storage or on any external storage that is installed, so it should work regardless of a device's storage configuration, given that there is enough available space to store the sketches. To change the sketchbook location, go to Settings > General > Sketchbook > Sketchbook Location.
+
+I currently test APDE on a Samsung Galaxy S6, S5, and S4, an ASUS Nexus 7, and an HTC One M8, all of which run Android 5.0 or 5.1, and a handful of emulators including phone and tablet configurations of Android versions 5.1, 5.0, 4.4, 4.2, 4.0, and 2.3.3. I cannot test on all device configurations, so there may be individual issues for specific devices. Please report these bugs as GitHub issues, by email, or through any other means of communication.
