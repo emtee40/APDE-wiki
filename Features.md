@@ -23,6 +23,7 @@
  - Increase/decrease indent
  - Unlimited undo/redo
  - Find/replace
+ - Hardware keyboard support, with keyboard shortcuts
  - Special character (`{`, `;`, etc.) insertion tray for use with software keyboards
  - Export sketch as an Eclipse-compatible Android project
  - Color selector
