@@ -1,4 +1,4 @@
-## Editing Screen Overlays and the Install Screen (AKA "Why can't I press the install button?")
+## AKA "Why can't I press the install button?"
 
 **Situation**: You have run a sketch from APDE and the install screen with the "install" and "cancel" buttons appears. However, nothing happens when you try to press the install button.
 
