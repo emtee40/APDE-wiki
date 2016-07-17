@@ -1,3 +1,5 @@
+## Editing Screen Overlays and the Install Screen (AKA "Why can't I press the install button?")
+
 **Situation**: You have run a sketch from APDE and the install screen with the "install" and "cancel" buttons appears. However, nothing happens when you try to press the install button.
 
 **TL;DR**: You need to temporarily disable any screen dimming/blue light filter app that you have installed on your phone, including Lux, Twilight, or any similar screen filter app. The app must be disabled when you press the install button.
