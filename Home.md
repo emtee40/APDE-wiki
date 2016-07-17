@@ -21,3 +21,7 @@ APDE cannot support core libraries because APDE uses *Android mode* Processing, 
 ### How do I export?
 
 To export a signed APK file that can, for example, be published to Google Play, please see [Exporting as a Signed Package](https://github.com/Calsign/APDE/wiki/Exporting-as-a-Signed-Package).
+
+### Why can't I press the install button?
+
+Please see [Screen Overlays and the Install Screen](https://github.com/Calsign/APDE/wiki/Screen-Overlays-and-the-Install-Screen).
