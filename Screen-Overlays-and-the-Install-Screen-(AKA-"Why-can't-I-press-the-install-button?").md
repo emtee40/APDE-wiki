@@ -8,6 +8,6 @@ As a security feature, Android prevents potentially dangerous actions from being
 
 Therefore, in order to install APDE sketches, you must temporarily disable your screen filter app. You do not need to uninstall the app and you may have it enabled on every screen except for the install screen.
 
-If you don't know which app is acting as a screen filter, then you can go to Settings > Apps > Advanced/More (in the top right) > Draw over other apps (or something to that effect). (Note that the exact path varies from device to device). From here, selectively disable the ability to draw over other apps until you discover which app is causing the issue. Note that, theoretically, multiple apps could be simultaneously drawing a screen overlay, in which case you would have to disable all of the.
+If you don't know which app is acting as a screen filter, then you can go to Settings > Apps > Advanced/More (in the top right) > Draw over other apps (or something to that effect). (Note that the exact path varies from device to device). From here, selectively disable the ability to draw over other apps until you discover which app is causing the issue. Note that, theoretically, multiple apps could be simultaneously drawing a screen overlay, in which case you would have to disable all of them.
 
 There is, unfortunately, no other workaround for this issue, and the cause is entirely outside of APDE's control.
