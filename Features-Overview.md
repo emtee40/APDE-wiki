@@ -4,10 +4,11 @@
 
  - "Run" button compiles and launches the sketch
  - Multiple files (tabs)
- - A large set of examples (must be downloaded in-app, prompted on first run)
+ - A large set of examples (must be downloaded in-app, prompted on first run with Wi-Fi access)
  - Nested file manager, support for organizing sketches into folders
  - Import contributed libraries
  - Export sketch as a signed APK file
+ - Internal documentation/reference viewer, including "Find in Reference"
  - Basic Git support (no branching yet, among other things)
  - Internal Android manifest file configuration (sketch permissions, orientation lock, etc.)
  - Sketch output (`println()` calls and exceptions) in the console
@@ -35,7 +36,6 @@
 
 ### Near Future
 
- - Material design
  - Auto-completion
  - Improved syntax highlighting
  - Active error checking
@@ -43,7 +43,6 @@
 ### More Distant
 
  - Localization
- - Internal documentation
  - Tutorial
  - Git branching
  - Sketch console overlay (see console output while in the sketch)
