@@ -5,19 +5,3 @@ APDE works on both phones and tablets, with or without hardware/external/bluetoo
 APDE can store sketches on the internal storage or on any external storage that is installed, so it should work regardless of a device's storage configuration, given that there is enough available space to store the sketches. To change the sketchbook location, go to Settings > General > Sketchbook > Sketchbook Location.
 
 I currently test APDE on a Samsung Galaxy S7, a Galaxy S6, and an ASUS Nexus 7, all of which run Android 6.0, and a handful of emulators including phone and tablet configurations of Android versions 7.1, 7.0, 6.0, 5.1, 5.0, 4.4, 4.2, and 4.0. I cannot test on all device configurations, so there may be individual issues for specific devices. Please report these bugs as GitHub issues, by email, or through any other means of communication.
-
-## Permissions
-
-> modify or delete the contents of your USB storage<br/>
-> read the contents of your USB storage
-
-APDE needs to access the external storage to save sketches there.
-
-> full network access<br/>
-> view network connections
-
-APDE needs to connect to the internet to download examples repository updates and to perform Git push, pull, and cloning operations.
-
-> control vibration
-
-APDE uses the device's vibrator to provide haptic feedback.
