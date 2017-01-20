@@ -1,5 +1,7 @@
 APDE (Android Processing Development Environment) is a [Processing](https://processing.org/) IDE for creating and running sketches on Android devices. You can download APDE from [Google Play](https://play.google.com/store/apps/details?id=com.calsignlabs.apde) or the [releases page](https://github.com/Calsign/APDE/releases).
 
+New here? See [Getting Started](https://github.com/Calsign/APDE/wiki/Getting-Started) for the basics.
+
 APDE is developed by William Smith (aka Calsign or CalsignLabs) and is not supported by the Processing Foundation.
 
 ## FAQ
