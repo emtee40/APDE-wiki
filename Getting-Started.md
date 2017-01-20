@@ -26,7 +26,7 @@ Now press "Open", and voila! You have run your first sketch! You can press the b
 
 ### The Sketchbook
 
-The sketch that is created when APDE is first launched and any sketches made with "New Sketch" in the menu are temporary sketches by default with a date-stamp name (such as "sketch_20170119a"). Temporary sketches are never deleted (unless you delete them), but they are not very organized.
+The sketch that is created when APDE is first launched and any sketches made with "New Sketch" in the menu are temporary sketches with default date-stamp names (such as "sketch_20170119a"). Temporary sketches are never deleted (unless you delete them), but they are not very organized.
 
 To make your sketch more permanent, you can select "Move to Sketchbook" from the menu. Sketches in the Sketchbook can be renamed and organized into folders. You can now rename your sketch with "Rename Sketch" in the menu.
 
@@ -34,7 +34,7 @@ To make your sketch more permanent, you can select "Move to Sketchbook" from the
 
 To load a sketch, press the three horizontal lines in the top left corner, swipe in from the left side of the screen, or select "Load Sketch" from the menu. This action will make the sketch manager drawer appear.
 
-There are five top-level folders: Sketches, Examples, Library Examples, Temporary, and Recent. Sketches is your Sketchbook. Examples contains the four default examples or the entire repository if it has been downloaded. Library Examples has the examples for any libraries that you have installed. Temporary is all of the temporary sketches that haven't been moved to the Sketchbook yet. Recent is a list of your recent sketches, with the most recently opened first.
+There are five top-level folders: Sketches, Examples, Library Examples, Temporary, and Recent. Sketches is your Sketchbook. Examples contains the four default examples or the entire repository if it has been downloaded (see the Examples section below). Library Examples has the examples for any libraries that you have installed. Temporary is all of the temporary sketches that haven't been moved to the Sketchbook yet. Recent is a list of your recent sketches, with the most recently opened first.
 
 You can load a sketch from any of these folders by opening the folder and selecting the sketch (or example). To navigate up a level, press the ".." at the top of the sketch manager drawer.
 
@@ -42,19 +42,21 @@ You can load a sketch from any of these folders by opening the folder and select
 
 ### Examples
 
-If you are just getting started with APDE, you might want to experiment with some of the examples at this point in time.
+If you are just getting started with APDE, then you might want to experiment with some of the examples.
 
 When you first started APDE, you should have seen a dialog asking you to download the examples repository if you were on a Wi-Fi network. If you chose to download the repository then you now have a large set of examples to work with. If you didn't download the repository then you only have the four default examples, but you can still choose to download the repository later.
 
-If you would like to download the repository even over mobile data, then go to Settings > General > Examples Updates and select "Over Mobile Network". Now restart APDE and the dialog should appear. (Alternatively you can press "Re-download Examples Now" to download the examples without restarting and the dialog.)
+If you would like to download the repository even over mobile data, then go to Settings > General > Examples Updates and select "Over Mobile Network". Now restart APDE and the dialog should appear. (Alternatively you can press "Re-download Examples Now" to download the examples without restarting.)
 
 Updates to the examples repository will be released periodically, at which point in time the update dialog will re-appear.
 
 ### Tabs
 
-You can create multiple tabs within your sketch to organize your code, just as you can in the desktop Processing. To create a new tab, press the current tab at the top of the screen (labelled "sketch" by default) and selected "New Tab". Similarly, you can choose "Rename Tab" or "Delete Tab" to rename or delete the current tab, respectively.
+You can create multiple tabs within your sketch to organize your code, just as you can in the desktop Processing. To create a new tab, press the current tab at the top of the screen (labelled "sketch" by default) and select "New Tab". Similarly, you can choose "Rename Tab" or "Delete Tab" to rename or delete the current tab, respectively.
 
 Separate tabs are stored as separate .pde files in the sketch folder.
+
+It is not currently possible to re-order the tabs as they appear in the editor, but this is a planned feature.
 
 > Tip: You can also load .java files in the sketch folder as separate tabs, but it is not yet possible to create .java files from within APDE.
 
@@ -70,19 +72,19 @@ If your sketch crashes while running, then the error message and stack trace wil
 
 For bugs in your app that do not cause crashes, you can try debugging using [`println()`](https://processing.org/reference/println_.html) statements. The output from your sketch will appear in the console.
 
- > Tip: You can long-press the message area (the gray bar between the code area and the console) to drag it, resizing both areas in the process.
+ > Tip: You can long-press the message area (the gray bar between the code area and the console) to drag it, resizing both the code area and the console in the process.
 
 If you encounter a build error that is not due to your faulty code, then please [report it as an issue](https://github.com/Calsign/APDE/issues). However, you should check to see if the issue has been reported already before creating a new issue; if it has then you can add a comment to the existing issue.
 
 ### Sketch Properties
 
-You can open the Sketch Properties view from the menu to modify various meta-information about the sketch.
+You can open the Sketch Properties view from the menu to modify various pieces of meta-information about the sketch.
 
 #### Manifest
 
 The first set of properties configure some common pieces of the AndroidManifest.xml file in the sketch folder. While you can edit the manifest directly, it is recommended not to as damaging it can break your sketch.
 
-The sketch display name is the "pretty" sketch name that shows up in the Android launcher after you install the sketch.
+The sketch display name is the "pretty" sketch name that shows up in the Android launcher after you install the sketch, as opposed to the regular sketch name that cannot contain spaces.
 
 The version code and version name are primarily used when releasing your app, such as on Google Play. The version code is an integer that represents the iteration of the sketch; you typically increase it by one with each release. The version name is the "pretty" version that is shown to the user.
 
@@ -100,7 +102,7 @@ The "Show Sketch Folder" option is supposed to open the sketch folder in an exte
 
 You must add files to the data folder in order to use them in your sketch. For example, images, .csv files, and any other external data must be added to the data folder. Note that, for some reason, not all file managers properly provide APDE with the path to the file that you selected; as such you may have to use a different file manager or copy the path in directly.
 
-"Change Sketch Icon" opens a dialog for changing the icon of your sketch as displayed in the Android launcher. You can select any image file to use as an icon (note that the same difficulties with file selection as with adding files to the data folder apply). You can then choose the crop mode and select "OK" to use the new icon.
+"Change Sketch Icon" opens a dialog for changing the icon of your sketch as displayed in the Android launcher. You can select any image file to use as an icon (note that the same file selection difficulties as with adding files to the data folder apply). You can then choose the crop mode and select "OK" to use the new icon. APDE automatically resizes the icons for ldpi, mdpi, hdpi, xhdpi, xxhdpi, and xxxhdpi screens.
 
  > Tip: The sketch icon is also used in the sketch manager drawer, which may help you organize your sketches.
 
@@ -110,7 +112,7 @@ There are many tools available in the tools menu, accessed from the menu in the 
 
 ### Next Steps
 
-Now that you have mastered the basics of APDE, you may wish to move onto some more advanced topics:
+Now that you have mastered the basics of APDE, you may wish to move on to some more advanced topics:
 
  - [Installing Contributed Libraries](https://github.com/Calsign/APDE/wiki/Installing-Contributed-Libraries)
  - [Exporting as a Signed Package](https://github.com/Calsign/APDE/wiki/Exporting-as-a-Signed-Package)
