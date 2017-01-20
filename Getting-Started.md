@@ -22,7 +22,7 @@ Once the build has finished you will see an app install screen. APDE sketches ru
 
 Now press "Open", and voila! You have run your first sketch! You can press the back button to return to APDE.
 
- > Tip: If you just want to re-open a previously-installed sketch, you can just open it from the Android launcher instead of running it again.
+ > Tip: If you just want to re-open a previously-installed sketch without changing it, then you can just open it from the Android launcher instead of running it again.
 
 ### The Sketchbook
 
