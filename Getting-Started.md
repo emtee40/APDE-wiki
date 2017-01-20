@@ -18,11 +18,11 @@ rect(100, 100, 200, 200);
 
 ...and press the run button, the right-facing arrow at the top of the screen, to build and launch the sketch. You will see some information being spit out in the console as the sketch builds.
 
- > Tip: You can long-press the message area (the gray bar between the code area and the console) to drag it, resizing both areas in the process.
-
 Once the build has finished you will see an app install screen. APDE sketches run as full-fledged Android apps, so they must be installed like a normal app. (If you currently have installation from unknown sources disabled, then you will need to enable it from Settings. The installer should prompt you to do so if it is disabled.)
 
 Now press "Open", and voila! You have run your first sketch! You can press the back button to return to APDE.
+
+ > Tip: If you just want to re-open a previously-installed sketch, you can just open it from the Android launcher instead of running it again.
 
 ### The Sketchbook
 
@@ -69,6 +69,8 @@ If the compiler (the next step) finds an error, it will report the error in the 
 If your sketch crashes while running, then the error message and stack trace will appear in the message area and console, respectively.
 
 For bugs in your app that do not cause crashes, you can try debugging using [`println()`](https://processing.org/reference/println_.html) statements. The output from your sketch will appear in the console.
+
+ > Tip: You can long-press the message area (the gray bar between the code area and the console) to drag it, resizing both areas in the process.
 
 If you encounter a build error that is not due to your faulty code, then please [report it as an issue](https://github.com/Calsign/APDE/issues). However, you should check to see if the issue has been reported already before creating a new issue; if it has then you can add a comment to the existing issue.
 
