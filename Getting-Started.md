@@ -26,7 +26,7 @@ Now press "Open", and voila! You have run your first sketch! You can press the b
 
 ### The Sketchbook
 
-The sketch that is created when APDE is first launched and as any sketches made with "New Sketch" in the menu are by default temporary sketches with a date-stamp name. Temporary sketches are never deleted (unless you delete them), but they are not very organized.
+The sketch that is created when APDE is first launched and any sketches made with "New Sketch" in the menu are temporary sketches by default with a date-stamp name. Temporary sketches are never deleted (unless you delete them), but they are not very organized.
 
 To make your sketch more permanent, you can select "Move to Sketchbook" from the menu. Sketches in the Sketchbook can be renamed and organized into folders. You can now rename your sketch with "Rename Sketch" in the menu.
 
