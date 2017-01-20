@@ -1,8 +1,8 @@
-### For Processing users
+#### For Processing users
 
 APDE is based on Processing's [Android mode](http://android.processing.org/). There are some [minor differences](http://android.processing.org/reference/gone.html) between "normal" Java mode Processing and Android mode, but most sketches will not need to be changed for Android mode (especially beginner-level sketches).
 
-### For those learning Processing
+#### For those learning Processing
 
 The Processing website has lots of great [tutorials](https://processing.org/tutorials/) and [examples](https://processing.org/examples/) for beginners. The [online reference](https://processing.org/reference/) is particularly useful for both newcomers and the experienced.
 
@@ -72,7 +72,7 @@ For bugs in your app that do not cause crashes, you can try debugging using [`pr
 
 If you encounter a build error that is not due to your faulty code, then please [report it as an issue](https://github.com/Calsign/APDE/issues). However, you should check to see if the issue has been reported already before creating a new issue; if it has then you can add a comment to the existing issue.
 
-## Sketch Properties
+### Sketch Properties
 
 You can open the Sketch Properties view from the menu to modify various meta-information about the sketch.
 
