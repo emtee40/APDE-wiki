@@ -58,6 +58,20 @@ Separate tabs are stored as separate .pde files in the sketch folder.
 
 > Tip: You can also load .java files in the sketch folder as separate tabs, but it is not yet possible to create .java files from within APDE.
 
+### Debugging
+
+When running your own sketches, you may come across build errors or sketch crashes.
+
+If the preprocessor (the first step in the build process) finds an error, then it will report it in the message area and jump to the offending line. These errors are generally syntax errors. These types of errors may be frustrating if you are a beginner, but you can find help by searching from the [main Processing website](https://processing.org/).
+
+If the compiler (the next step) finds an error, it will report the error in the console and list some information about the error. The compiler errors may be difficult to read at first but they actually provide a lot of useful information for fixing problems. Note that the line numbers listed by the compiler do not correspond to line numbers in your sketch.
+
+If your sketch crashes while running, then the error message and stack trace will appear in the message area and console, respectively.
+
+For bugs in your app that do not cause crashes, you can try debugging using [`println()`](https://processing.org/reference/println_.html) statements. The output from your sketch will appear in the console.
+
+If you encounter a build error that is not due to your faulty code, then please [report it as an issue](https://github.com/Calsign/APDE/issues). However, you should check to see if the issue has been reported already before creating a new issue; if it has then you can add a comment to the existing issue.
+
 ## Sketch Properties
 
 You can open the Sketch Properties view from the menu to modify various meta-information about the sketch.
@@ -68,4 +82,18 @@ The sketch display name is the "pretty" sketch name that shows up in the Android
 
 The version code and version name are primarily used when releasing your app, such as on Google Play. The version code is an integer that represents the iteration of the sketch; you typically increase it by one with each release. The version name is the "pretty" version that is shown to the user.
 
-In order to use certain device functionality, such as connecting to the internet, writing files on the external storage, using the camera, accessing bluetooth, and a host of other features, you must enable the corresponding permission from the Sketch Permissions screen. Within the permissions screen, you can long-press on a permission to see what it is required to do. For more information, see the permissions reference on the [Android developers site](https://developer.android.com/guide/topics/permissions/requesting.html).
+In order to use certain device functionality, such as connecting to the internet, writing files on the external storage, using the camera, accessing bluetooth, and a host of other features, you must enable the corresponding permission from the Sketch Permissions screen. For more information, see the permissions reference on the [Android developers site](https://developer.android.com/guide/topics/permissions/requesting.html).
+
+ > Tip: You can long-press a permission in the permissions screen to see what functionality it enables.
+
+You may specify a locked orientation for the sketch, which will prevent the screen from rotating.
+
+The second set of properties affects the sketch folder.
+
+The "Show Sketch Folder" option is supposed to open the sketch folder in an external file manager, but unfortunately most file managers do not actually display the sketch folder properly.
+
+You must add files to the data folder in order to use them in your sketch. For example, images, .csv files, and any other external data must be added to the data folder. Note that, for some reason, not all file managers properly provide APDE with the path to the file that you selected; as such you may have to use a different file manager or copy the path in directly.
+
+"Change Sketch Icon" opens a dialog for changing the icon of your sketch as displayed in the Android launcher. You can select any image file to use as an icon (note that the same difficulties with file selection as with adding files to the data folder apply). You can then choose the crop mode and select "OK" to use the new icon.
+
+ > Tip: The sketch icon is also used in the sketch manager drawer, which may help you organize your sketches.
