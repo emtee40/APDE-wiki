@@ -123,3 +123,4 @@ Additional documentation:
 Technical documentation:
 
  - [Custom Build Chain](https://github.com/Calsign/APDE/wiki/Custom-Build-Chain-(Technical))
+ - [Contributing to APDE](https://github.com/Calsign/APDE/wiki/Contributing-to-APDE)
