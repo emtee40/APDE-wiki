@@ -76,6 +76,8 @@ If you encounter a build error that is not due to your faulty code, then please 
 
 You can open the Sketch Properties view from the menu to modify various meta-information about the sketch.
 
+#### Manifest
+
 The first set of properties configure some common pieces of the AndroidManifest.xml file in the sketch folder. While you can edit the manifest directly, it is recommended not to as damaging it can break your sketch.
 
 The sketch display name is the "pretty" sketch name that shows up in the Android launcher after you install the sketch.
@@ -87,6 +89,8 @@ In order to use certain device functionality, such as connecting to the internet
  > Tip: You can long-press a permission in the permissions screen to see what functionality it enables.
 
 You may specify a locked orientation for the sketch, which will prevent the screen from rotating.
+
+#### Sketch Folder
 
 The second set of properties affects the sketch folder.
 
