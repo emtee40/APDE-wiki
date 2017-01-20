@@ -97,3 +97,25 @@ You must add files to the data folder in order to use them in your sketch. For e
 "Change Sketch Icon" opens a dialog for changing the icon of your sketch as displayed in the Android launcher. You can select any image file to use as an icon (note that the same difficulties with file selection as with adding files to the data folder apply). You can then choose the crop mode and select "OK" to use the new icon.
 
  > Tip: The sketch icon is also used in the sketch manager drawer, which may help you organize your sketches.
+
+### Tools
+
+There are many tools available in the tools menu, accessed from the menu in the editor. Some of these tools are straightforward while others are described in their own Wiki pages. The tools will not be enumerated here but they contain a lot of important functionality and are thus worthy of exploration.
+
+### Next Steps
+
+Now that you have mastered the basics of APDE, you may wish to move onto some more advanced topics:
+
+ - [Installing Contributed Libraries](https://github.com/Calsign/APDE/wiki/Installing-Contributed-Libraries)
+ - [Exporting as a Signed Package](https://github.com/Calsign/APDE/wiki/Exporting-as-a-Signed-Package)
+
+Additional documentation:
+
+ - [Main page and FAQ](https://github.com/Calsign/APDE/wiki)
+ - [Features Overview](https://github.com/Calsign/APDE/wiki/Features-Overview)
+ - [Supported Devices](https://github.com/Calsign/APDE/wiki/Supported-Devices)
+ - [Required Permissions (for APDE itself)](https://github.com/Calsign/APDE/wiki/Required-Permissions)
+
+Technical documentation:
+
+ - [Custom Build Chain](https://github.com/Calsign/APDE/wiki/Custom-Build-Chain-(Technical))
