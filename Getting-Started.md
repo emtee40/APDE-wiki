@@ -43,7 +43,7 @@ The reference is also available in APDE from Tools > Open Reference or by select
 
 The sketch that is created when APDE is first launched and any sketches made with "New Sketch" in the menu are temporary sketches with default date-stamp names (such as "sketch_20170119a"). Temporary sketches are never deleted (unless you delete them), but they are not very organized.
 
-To make your sketch more permanent, you can select "Move to Sketchbook" from the menu. Sketches in the Sketchbook can be renamed and organized into folders. You can now rename your sketch with "Rename Sketch" in the menu.
+To make your sketch more permanent, you can select "Move to Sketchbook" from the menu. The menu is opened by pressing the three dots in the top right corner of the screen. Sketches in the Sketchbook can be renamed and organized into folders. You can now rename your sketch with "Rename Sketch" in the menu.
 
 ### The sketch manager drawer
 
