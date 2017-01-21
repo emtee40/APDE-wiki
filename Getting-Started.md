@@ -1,14 +1,17 @@
-#### For Processing users
+### Table of Contents
 
-APDE is based on Processing's [Android mode](http://android.processing.org/). There are some [minor differences](http://android.processing.org/reference/gone.html) between "normal" Java mode Processing and Android mode, but most sketches will not need to be changed for Android mode (especially beginner-level sketches).
+ - [First steps](https://github.com/Calsign/APDE/wiki/Getting-Started#first-steps)
+ - [Learning Android Processing](https://github.com/Calsign/APDE/wiki/Getting-Started#learning-android-processing)
+ - [The Sketchbook](https://github.com/Calsign/APDE/wiki/Getting-Started#the-sketchbook)
+ - [The sketch manager drawer](https://github.com/Calsign/APDE/wiki/Getting-Started#the-sketch-manager-drawer)
+ - [Examples](https://github.com/Calsign/APDE/wiki/Getting-Started#examples)
+ - [Tabs](https://github.com/Calsign/APDE/wiki/Getting-Started#tabs)
+ - [Debugging](https://github.com/Calsign/APDE/wiki/Getting-Started#debugging)
+ - [Sketch Properties](https://github.com/Calsign/APDE/wiki/Getting-Started#sketch-properties)
+ - [Tools](https://github.com/Calsign/APDE/wiki/Getting-Started#tools)
+ - [Next steps](https://github.com/Calsign/APDE/wiki/Getting-Started#next-steps)
 
-#### For those learning Processing
-
-The Processing website has lots of great [tutorials](https://processing.org/tutorials/) and [examples](https://processing.org/examples/) for beginners. The [online reference](https://processing.org/reference/) is particularly useful for both newcomers and the experienced.
-
-The reference is also available in APDE from Tools > Open Reference or by selecting "Find In Reference" from a highlighted keyword.
-
-## Getting started with APDE
+### First steps
 
 When you first launch APDE you are presented with an empty sketch. You can type some code, for example...
 
@@ -23,6 +26,18 @@ Once the build has finished you will see an app install screen. APDE sketches ru
 Now press "Open", and voila! You have run your first sketch! You can press the back button to return to APDE.
 
  > Tip: If you just want to re-open a previously-installed sketch without changing it, then you can just open it from the Android launcher instead of running it again.
+
+### Learning Android Processing
+
+#### For Processing users
+
+APDE is based on Processing's [Android mode](http://android.processing.org/). There are some [minor differences](http://android.processing.org/reference/gone.html) between "normal" Java mode Processing and Android mode, but most sketches will not need to be changed for Android mode (especially beginner-level sketches).
+
+#### For those learning Processing
+
+The Processing website has lots of great [tutorials](https://processing.org/tutorials/) and [examples](https://processing.org/examples/) for beginners. The [online reference](https://processing.org/reference/) is particularly useful for both newcomers and the experienced.
+
+The reference is also available in APDE from Tools > Open Reference or by selecting "Find In Reference" from a highlighted keyword.
 
 ### The Sketchbook
 
@@ -110,7 +125,7 @@ You must add files to the data folder in order to use them in your sketch. For e
 
 There are many tools available in the tools menu, accessed from the menu in the editor. Some of these tools are straightforward while others are described in their own Wiki pages. The tools will not be enumerated here but they contain a lot of important functionality and are thus worthy of exploration.
 
-### Next Steps
+### Next steps
 
 Now that you have mastered the basics of APDE, you may wish to move on to some more advanced topics:
 
