@@ -15,9 +15,9 @@
 
 When you first launch APDE you are presented with an empty sketch. You can type some code, for example...
 
-``
+```processing
 rect(100, 100, 200, 200);
-``
+```
 
 ...and press the run button, the right-facing arrow at the top of the screen, to build and launch the sketch. You will see some information being spit out in the console as the sketch builds.
 
