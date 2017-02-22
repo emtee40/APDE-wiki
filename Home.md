@@ -12,13 +12,13 @@ To install a contributed library (libraries that are not included in the desktop
 
 If you are looking to use a core library (including the Serial library), then see below...
 
-### Where is the Serial library (or any other core library)?
+### Where are the Serial, Network, Video, or Sound libraries?
 
-APDE does not support any of the core libraries, including Serial, Network, Video, and Sound.
+APDE does not support any of the core libraries, including those listed above. However, there are some contributed libraries that may work in their place:
 
-However, there is a contributed library, [Processing-Android-Serial](https://github.com/inventit/processing-android-serial), that claims to port the Serial library to Android mode. I have not tested this personally, but some users have reported that it works.
-
-I do not know of any ports for the other core libraries, but there may be alternatives for them as well.
+ - [AndroidSerial](https://github.com/inventit/processing-android-serial) for the Serial. [Download](https://github.com/inventit/processing-android-serial/releases/download/0.2.0/AndroidSerial-distribution.zip)
+ - [video_android](https://github.com/omerjerk/processing-video-android) for Video. [Download](https://github.com/omerjerk/processing-video-android/releases/download/Release/video_android.zip)
+ - [cassette](https://github.com/shlomihod/cassette) for Sound. [Download](https://github.com/shlomihod/cassette/raw/master/dist/cassette.zip)
 
 APDE cannot support core libraries because APDE uses *Android mode* Processing, not Java mode. All of the core libraries are part of Java mode and are thus available neither in desktop Android Mode nor APDE. Android mode cannot support these libraries because they are generally dependent upon hardware or other native libraries that are simply not present in Android.
 
