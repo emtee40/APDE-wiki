@@ -16,7 +16,7 @@ If you are looking to use a core library (including the Serial library), then se
 
 APDE does not support any of the core libraries, including those listed above. However, there are some contributed libraries that may work in their place:
 
- - [AndroidSerial](https://github.com/inventit/processing-android-serial) for the Serial. [Download](https://github.com/inventit/processing-android-serial/releases/download/0.2.0/AndroidSerial-distribution.zip)
+ - [AndroidSerial](https://github.com/inventit/processing-android-serial) for Serial. [Download](https://github.com/inventit/processing-android-serial/releases/download/0.2.0/AndroidSerial-distribution.zip)
  - [video_android](https://github.com/omerjerk/processing-video-android) for Video. [Download](https://github.com/omerjerk/processing-video-android/releases/download/Release/video_android.zip)
  - [cassette](https://github.com/shlomihod/cassette) for Sound. [Download](https://github.com/shlomihod/cassette/raw/master/dist/cassette.zip)
 
