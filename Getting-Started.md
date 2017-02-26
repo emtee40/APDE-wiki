@@ -45,6 +45,8 @@ The sketch that is created when APDE is first launched and any sketches made wit
 
 To make your sketch more permanent, you can select "Move to Sketchbook" from the menu. The menu is opened by pressing the three dots in the top right corner of the screen. Sketches in the Sketchbook can be renamed and organized into folders. You can now rename your sketch with "Rename Sketch" in the menu.
 
+> Tip: By default, sketches in the Sketchbook are stored in the "Sketchbook" folder on the external storage. You can change both the storage location and the external storage folder from Settings > General > Sketchbook.
+
 ### The sketch manager drawer
 
 To load a sketch, press the three horizontal lines in the top left corner, swipe in from the left side of the screen, or select "Load Sketch" from the menu. This action will make the sketch manager drawer appear.
