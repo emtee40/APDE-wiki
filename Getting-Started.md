@@ -75,7 +75,7 @@ Separate tabs are stored as separate .pde files in the sketch folder.
 
 It is not currently possible to re-order the tabs as they appear in the editor, but this is a planned feature.
 
-> Tip: You can also load .java files in the sketch folder as separate tabs, but it is not yet possible to create .java files from within APDE.
+> Tip: You can also have .java file tabs. To create a .java file, just end the new tab's name with ".java".
 
 ### Debugging
 
