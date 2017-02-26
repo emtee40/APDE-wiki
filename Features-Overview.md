@@ -52,4 +52,4 @@
 
  - Google Drive, Dropbox support
  - JavaScript mode (possibly other modes as well)
- - Samsung multi-window support
+ - Android 7.0 Nougat and Samsung multi-window support
