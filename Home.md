@@ -29,3 +29,7 @@ To export a signed APK file that can, for example, be published to Google Play, 
 ### Why can't I press the install button?
 
 Please see [Screen Overlays and the Install Screen](https://github.com/Calsign/APDE/wiki/Screen-Overlays-and-the-Install-Screen).
+
+### How do I use multitouch?
+
+AKEric has two [blog](http://www.akeric.com/blog/?p=1411) [posts](http://www.akeric.com/blog/?p=1435) about multitouch that are helpful. Additionally, the example CalsignLabs/Drift implements multitouch and can serve as a reference.
