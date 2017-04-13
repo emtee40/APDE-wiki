@@ -1,0 +1,9 @@
+## AKA "Why does APDE asking to install apps from unknown sources?"
+
+**Situation**: You have pressed the run button and APDE has finished building the sketch, but you see a warning dialog telling you something along the lines of "Install blocked: For security, your phone is set to block installation of apps obtained from unknown sources."
+
+**TL;DR**: You must enable installation from unknown sources in Android settings. There should be a link to this setting from the warning dialog.
+
+**Explanation**: Rest assured, this is expected. In order to run APDE sketches, you must enable installation from unknown sources in Android settings. This is because APDE sketches (and all Android mode sketches) are run as native Android applications that must be installed. As the apps are built by APDE on the device and don't come from Google Play, the Android system warns you - as a security feature - that you are trying to install an app from an unknown source. But you built the app and want to install it anyway, so you must enable installation from unknown sources. Enabling installation from unknown sources will not let just any APK file be installed on your device; you still need to approve the installation of every application, so your security is not compromised by doing this.
+
+If you don't trust APDE or you don't trust your own code, then you are free to use a JavaScript-based (non-native) Processing alternative instead. But you have no reason not to trust APDE: the code is open-source. The APK-building code is available in the [`build()` function](https://github.com/Calsign/APDE/blob/master/APDE/src/main/java/com/calsignlabs/apde/build/Build.java#L380) for those interested.
