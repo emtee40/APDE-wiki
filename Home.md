@@ -10,7 +10,7 @@ APDE is developed by William Smith (aka Calsign or CalsignLabs) and is not suppo
 
 You have pressed the run button and APDE has finished building the sketch, but you see a warning dialog telling you something along the lines of "Install blocked: For security, your phone is set to block installation of apps obtained from unknown sources."
 
-Please see [Installation from Unknown Sources](https://github.com/Calsign/APDE/wiki/Installation-from-Unknown-Sources).
+Please see [Enabling Installation from Unknown Sources](https://github.com/Calsign/APDE/wiki/Enabling-Installation-from-Unknown-Sources).
 
 ### How do I install a library?
 
