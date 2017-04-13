@@ -33,3 +33,7 @@ Please see [Screen Overlays and the Install Screen](https://github.com/Calsign/A
 ### How do I use multitouch?
 
 AKEric has two [blog](http://www.akeric.com/blog/?p=1411) [posts](http://www.akeric.com/blog/?p=1435) about multitouch that are helpful. Additionally, the example CalsignLabs/Drift implements multitouch and can serve as a reference.
+
+### How do I fix "Parse Error: There is a problem parsing the package"?
+
+APDE has finished building your sketch and it goes to install, but instead of the installer you see a dialog that says "Parse Error: There is a problem parsing the package". The following solution has been successful for a number of users: Go to Settings > Build and then disable "Build on Internal Storage" and enable "Keep Build Folder". If this doesn't work then please open an issue in this repository or send me an email.
