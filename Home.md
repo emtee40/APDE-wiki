@@ -2,11 +2,15 @@ APDE (Android Processing Development Environment) is a [Processing](https://proc
 
 New here? See [Getting Started](https://github.com/Calsign/APDE/wiki/Getting-Started) for the basics.
 
-APDE is developed by William Smith (aka Calsign or CalsignLabs) and is not supported by the Processing Foundation.
+More documentation:
 
+ - [Installing Contributed Libraries](https://github.com/Calsign/APDE/wiki/Installing-Contributed-Libraries)
+ - [Exporting as a Signed Package](https://github.com/Calsign/APDE/wiki/Exporting-as-a-Signed-Package)
  - [Features Overview](https://github.com/Calsign/APDE/wiki/Features-Overview)
  - [Supported Devices](https://github.com/Calsign/APDE/wiki/Supported-Devices)
  - [Required Permissions (for APDE itself)](https://github.com/Calsign/APDE/wiki/Required-Permissions)
+
+APDE is developed by William Smith (aka Calsign or CalsignLabs) and is not supported by the Processing Foundation.
 
 ## FAQ
 
