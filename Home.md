@@ -4,6 +4,10 @@ New here? See [Getting Started](https://github.com/Calsign/APDE/wiki/Getting-Sta
 
 APDE is developed by William Smith (aka Calsign or CalsignLabs) and is not supported by the Processing Foundation.
 
+ - [Features Overview](https://github.com/Calsign/APDE/wiki/Features-Overview)
+ - [Supported Devices](https://github.com/Calsign/APDE/wiki/Supported-Devices)
+ - [Required Permissions (for APDE itself)](https://github.com/Calsign/APDE/wiki/Required-Permissions)
+
 ## FAQ
 
 ### Why does APDE asking to install apps from unknown sources?
