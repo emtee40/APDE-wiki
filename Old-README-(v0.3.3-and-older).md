@@ -1,3 +1,6 @@
+Note: This is the old README. Please see the [Wiki](https://github.com/Calsign/APDE/wiki) for current information.
+
+
 APDE
 ====
 
