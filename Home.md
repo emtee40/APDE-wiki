@@ -51,3 +51,7 @@ AKEric has two [blog](http://www.akeric.com/blog/?p=1411) [posts](http://www.ake
 ### How do I fix "Parse Error: There is a problem parsing the package"?
 
 APDE has finished building your sketch and it goes to install, but instead of the installer you see a dialog that says "Parse Error: There is a problem parsing the package". The following solution has been successful for a number of users: Go to Settings > Build and then disable "Build on Internal Storage" and enable "Keep Build Folder". If this doesn't work then please open an issue in this repository or send me an email.
+
+### How do I show/hide the soft keyboard?
+
+Please see [Showing or Hiding the Software Keyboard](https://github.com/Calsign/APDE/wiki/Showing-or-Hiding-the-Software-Keyboard).
