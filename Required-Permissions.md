@@ -8,7 +8,7 @@ APDE needs to access the external storage to save sketches there.
 > full network access<br/>
 > view network connections
 
-APDE needs to connect to the internet to download examples repository updates and to perform Git push, pull, and cloning operations.
+APDE needs to connect to the internet to download examples repository updates and to perform Git push, pull, and clone operations.
 
 > control vibration
 
