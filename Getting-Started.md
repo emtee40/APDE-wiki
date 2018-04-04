@@ -31,7 +31,7 @@ Now press "Open", and voila! You have run your first sketch! You can press the b
 
 #### For Processing users
 
-APDE is based on Processing's [Android mode](http://android.processing.org/). There are some [minor differences](http://android.processing.org/reference/gone.html) between "normal" Java mode Processing and Android mode, but most sketches will not need to be changed for Android mode (especially beginner-level sketches).
+APDE is based on Processing's [Android mode](http://android.processing.org/). There are some [minor differences](http://android.processing.org/reference/) between "normal" Java mode Processing and Android mode, but most sketches will not need to be changed for Android mode (especially beginner-level sketches).
 
 #### For those learning Processing
 
@@ -105,7 +105,7 @@ The sketch display name is the "pretty" sketch name that shows up in the Android
 
 The version code and version name are primarily used when releasing your app, such as on Google Play. The version code is an integer that represents the iteration of the sketch; you typically increase it by one with each release. The version name is the "pretty" version that is shown to the user.
 
-In order to use certain device functionality, such as connecting to the internet, writing files on the external storage, using the camera, accessing bluetooth, and a host of other features, you must enable the corresponding permission from the Sketch Permissions screen. For more information, see the permissions reference on the [Android developers site](https://developer.android.com/guide/topics/permissions/requesting.html).
+In order to use certain device functionality, such as connecting to the internet, writing files on the external storage, using the camera, accessing bluetooth, and a host of other features, you must enable the corresponding permission from the Sketch Permissions screen. For more information, see the permissions reference on the [Android developers site](https://developer.android.com/guide/topics/permissions/overview.html).
 
  > Tip: You can long-press a permission in the permissions screen to see what functionality it enables.
 
