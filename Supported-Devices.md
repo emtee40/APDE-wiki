@@ -1,4 +1,4 @@
-APDE will always try to support as many devices as possible. It works on Android versions 4.0.3+ (Ice Cream Sandwich) and on both ARM and x86 processors.
+APDE will always try to support as many devices as possible. It works on Android versions 4.2+ (Jelly Bean) and on both ARM and x86 processors.
 
 APDE works on both phones and tablets, with or without hardware/external/bluetooth keyboards. Obviously, a tablet would be preferable for coding due to the screen size, but a phone is entirely workable for smaller projects. For devices without a hardware keyboard, APDE provides a special character (`{`, `;`, etc.) insertion tray to supplement the software keyboard for quicker and easier coding.
 
