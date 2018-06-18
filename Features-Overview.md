@@ -12,6 +12,7 @@
  - Basic Git support (no branching yet, among other things)
  - Internal Android manifest file configuration (sketch permissions, orientation lock, etc.)
  - Sketch output (`println()` calls and exceptions) in the console
+ - Android 7.0+ multi-window support (run sketch side-by-side with APDE)
 
 ### Even More Features
 
@@ -34,22 +35,25 @@
 
 ## Upcoming Features (to-do list)
 
+### GSoC 2018 - 0.5.x
+
+ - Wallpaper, watch face, and VR support (Android mode 4.0 integration)
+ - Preview mode (run sketches without installing them)
+ - Incremental compilation and error checking
+ - In-app tutorial (basic APDE usage)
+
+Check out the [preview channel](https://plus.google.com/communities/117703520591262292626) (and follow the instructions at the top) to get a preview version of 0.5.0!
+
 ### Near Future
 
  - Auto-completion
  - Improved syntax highlighting
- - Active error checking
 
 ### More Distant
 
  - Localization
- - Tutorial
  - Git branching
  - Sketch console overlay (see console output while in the sketch)
  - Library manager/downloader
-
-### Even Further Still
-
  - Google Drive, Dropbox support
- - JavaScript mode (possibly other modes as well)
- - Android 7.0 Nougat and Samsung multi-window support
+ - JavaScript, Python modes
