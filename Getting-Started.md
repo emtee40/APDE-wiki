@@ -67,6 +67,16 @@ If you would like to download the repository even over mobile data, then go to S
 
 Updates to the examples repository will be released periodically, at which point in time the update dialog will re-appear.
 
+### Wallpapers, Watch Faces, and VR
+
+ > Note: This feature is new in v0.5.0.
+
+In addition to regular apps, you can run sketches as live wallpapers, watch faces, and VR apps. To change the target, press the button to the right of the run button.
+
+Watch faces require a Wear OS watch and VR requires a Google VR headset (Cardboard or Daydream). Wallpapers, however, should work on any device.
+
+For more information, see [Build Targets](https://github.com/Calsign/APDE/wiki/Build-Targets:-Wallpapers,-Watch-Faces,-and-VR).
+
 ### Tabs
 
 You can create multiple tabs within your sketch to organize your code, just as you can in the desktop Processing. To create a new tab, press the current tab at the top of the screen (labelled "sketch" by default) and select "New Tab". Similarly, you can choose "Rename Tab" or "Delete Tab" to rename or delete the current tab, respectively.
@@ -137,6 +147,7 @@ Now that you have mastered the basics of APDE, you may wish to move on to some m
 Additional documentation:
 
  - [Main page and FAQ](https://github.com/Calsign/APDE/wiki)
+ - [Build Targets - Wallpapers, Watch Faces, and VR](https://github.com/Calsign/APDE/wiki/Build-Targets:-Wallpapers,-Watch-Faces,-and-VR)
  - [Features Overview](https://github.com/Calsign/APDE/wiki/Features-Overview)
  - [Supported Devices](https://github.com/Calsign/APDE/wiki/Supported-Devices)
  - [Required Permissions (for APDE itself)](https://github.com/Calsign/APDE/wiki/Required-Permissions)
