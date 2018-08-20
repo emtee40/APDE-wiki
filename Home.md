@@ -15,7 +15,7 @@ APDE is developed by William Smith (aka Calsign or CalsignLabs) and is not suppo
 
 ## FAQ
 
-### Why does APDE asking to install apps from unknown sources?
+### Why does APDE ask to install apps from unknown sources?
 
 You have pressed the run button and APDE has finished building the sketch, but you see a warning dialog telling you something along the lines of "Install blocked: For security, your phone is set to block installation of apps obtained from unknown sources."
 
