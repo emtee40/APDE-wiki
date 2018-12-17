@@ -5,9 +5,10 @@
  - [The Sketchbook](https://github.com/Calsign/APDE/wiki/Getting-Started#the-sketchbook)
  - [The sketch manager drawer](https://github.com/Calsign/APDE/wiki/Getting-Started#the-sketch-manager-drawer)
  - [Examples](https://github.com/Calsign/APDE/wiki/Getting-Started#examples)
+ - [Wallpapers, watch faces, and VR](https://github.com/Calsign/APDE/wiki/Getting-Started#wallpapers-watch-faces-and-vr)
  - [Tabs](https://github.com/Calsign/APDE/wiki/Getting-Started#tabs)
  - [Debugging](https://github.com/Calsign/APDE/wiki/Getting-Started#debugging)
- - [Sketch Properties](https://github.com/Calsign/APDE/wiki/Getting-Started#sketch-properties)
+ - [Sketch properties](https://github.com/Calsign/APDE/wiki/Getting-Started#sketch-properties)
  - [Tools](https://github.com/Calsign/APDE/wiki/Getting-Started#tools)
  - [Next steps](https://github.com/Calsign/APDE/wiki/Getting-Started#next-steps)
 
