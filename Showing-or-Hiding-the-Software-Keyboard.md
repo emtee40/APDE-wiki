@@ -1,5 +1,18 @@
 ## AKA "How do I show/hide the soft keyboard?"
 
+Android mode includes built-in functionality for opening and closing the software keyboard. See the [reference](https://android.processing.org/reference/keyboard/virtual.html).
+
+```processing
+// To open the keyboard:
+openKeyboard();
+// To close the keyboard:
+closeKeyboard();
+```
+
+### Pre-Android Mode 4.0
+
+> Note: This approach is no longer necessary in new versions of APDE.
+
 Showing and hiding the software keyboard requires using a little bit of native Android functionality.
 
 First, you'll need an InputMethodManager:
