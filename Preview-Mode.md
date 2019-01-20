@@ -1,4 +1,4 @@
- > Note: Preview mode is a feature that is new in v0.5.1, which is not yet released. You can access an early version from the [APDE Preview Channel](https://plus.google.com/communities/117703520591262292626).
+ > Note: Preview mode is a feature is new in v0.5.1.
 
 ### Basics
 
