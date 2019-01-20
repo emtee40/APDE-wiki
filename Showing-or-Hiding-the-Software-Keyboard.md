@@ -3,9 +3,9 @@
 Android mode includes built-in functionality for opening and closing the software keyboard. See the [reference](https://android.processing.org/reference/keyboard/virtual.html).
 
 ```processing
-// To open the keyboard:
+// To open the keyboard
 openKeyboard();
-// To close the keyboard:
+// To close the keyboard
 closeKeyboard();
 ```
 
