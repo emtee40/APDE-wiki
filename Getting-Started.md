@@ -22,11 +22,11 @@ rect(100, 100, 200, 200);
 
 ...and press the run button, the right-facing arrow at the top of the screen, to build and launch the sketch. You will see some information being spit out in the console as the sketch builds.
 
-Once the build has finished you will see an app install screen. APDE sketches run as full-fledged Android apps, so they must be installed like a normal app. (If you currently have installation from unknown sources disabled, then you will need to enable it from Settings. The installer should prompt you to do so if it is disabled.)
+If this is your first time running a sketch, you will be prompted to install the APDE Sketch Previewer, a separate app that handles running the sketches that you create in APDE. See [Preview Mode](https://github.com/Calsign/APDE/wiki/Preview-Mode) for more information. (APDE can also make standalone apps, but we'll get to that later.)
 
-Now press "Open", and voila! You have run your first sketch! You can press the back button to return to APDE.
+> Note: If you currently have installation from unknown sources disabled, then you will need to enable it from Settings. The installer should prompt you to do so if it is disabled.
 
- > Tip: If you just want to re-open a previously-installed sketch without changing it, then you can just open it from the Android launcher instead of running it again.
+After the previewer is installed and the sketch builds, you should see the sketch appear on the screen. Voila! You have run your first sketch! You can press the back button to return to APDE.
 
 ### Learning Android Processing
 
@@ -69,8 +69,6 @@ If you would like to download the repository even over mobile data, then go to S
 Updates to the examples repository will be released periodically, at which point in time the update dialog will re-appear.
 
 ### Wallpapers, Watch Faces, and VR
-
- > Note: This feature is new in v0.5.0.
 
 In addition to regular apps, you can run sketches as live wallpapers, watch faces, and VR apps. To change the target, press the button to the right of the run button.
 
@@ -155,5 +153,6 @@ Additional documentation:
 
 Technical documentation:
 
+ - [Preview Mode](https://github.com/Calsign/APDE/wiki/Preview-Mode)
  - [Custom Build Chain](https://github.com/Calsign/APDE/wiki/Custom-Build-Chain-(Technical))
  - [Contributing to APDE](https://github.com/Calsign/APDE/wiki/Contributing-to-APDE)
