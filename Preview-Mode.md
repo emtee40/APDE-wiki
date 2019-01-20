@@ -1,4 +1,4 @@
- > Note: Preview mode is a feature is new in v0.5.1.
+ > Note: Preview mode is new in v0.5.1.
 
 ### Basics
 
