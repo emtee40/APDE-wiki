@@ -5,7 +5,7 @@
  - [The Sketchbook](https://github.com/Calsign/APDE/wiki/Getting-Started#the-sketchbook)
  - [The sketch manager drawer](https://github.com/Calsign/APDE/wiki/Getting-Started#the-sketch-manager-drawer)
  - [Examples](https://github.com/Calsign/APDE/wiki/Getting-Started#examples)
- - [Wallpapers, watch faces, and VR](https://github.com/Calsign/APDE/wiki/Getting-Started#wallpapers-watch-faces-and-vr)
+ - [Standalone apps, wallpapers, watch faces, and VR](https://github.com/Calsign/APDE/wiki/Getting-Started#standalone-apps-wallpapers-watch-faces-and-vr)
  - [Tabs](https://github.com/Calsign/APDE/wiki/Getting-Started#tabs)
  - [Debugging](https://github.com/Calsign/APDE/wiki/Getting-Started#debugging)
  - [Sketch properties](https://github.com/Calsign/APDE/wiki/Getting-Started#sketch-properties)
@@ -68,11 +68,11 @@ If you would like to download the repository even over mobile data, then go to S
 
 Updates to the examples repository will be released periodically, at which point in time the update dialog will re-appear.
 
-### Wallpapers, Watch Faces, and VR
+### Standalone Apps, Wallpapers, Watch Faces, and VR
 
-In addition to regular apps, you can run sketches as live wallpapers, watch faces, and VR apps. To change the target, press the button to the right of the run button.
+While preview mode is great for testing your sketches, you may wish to eventually turn them into standalone apps. You can run sketches as apps, live wallpapers, watch faces, and VR apps. To change the target, press the button to the right of the run button.
 
-Watch faces require a Wear OS watch and VR requires a Google VR headset (Cardboard or Daydream). Wallpapers, however, should work on any device.
+Watch faces require a Wear OS watch and VR requires a Google VR headset (Cardboard or Daydream). Apps and wallpapers, however, should work on any device.
 
 For more information, see [Build Targets](https://github.com/Calsign/APDE/wiki/Build-Targets:-Wallpapers,-Watch-Faces,-and-VR).
 
