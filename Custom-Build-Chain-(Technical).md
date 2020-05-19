@@ -10,4 +10,4 @@ APDE uses a custom build chain for running sketches. It differs from the desktop
 
 For those interested, the build process is located in the [`build()`](https://github.com/Calsign/APDE/blob/master/APDE/src/main/java/com/calsignlabs/apde/build/Build.java#L293) method of `com.calsignlabs.apde.build.Build.java` (this isn't the cleanest code, but it's there).
 
-Note: Libraries are dexed during the installation process to speed up build times.
+Note: Libraries are dexed when they are installed to speed up build times.
