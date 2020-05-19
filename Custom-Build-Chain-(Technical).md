@@ -1,4 +1,4 @@
-APDE uses a custom build chain for running sketches. It differs from the desktop Android mode's ANT build primarily in that it uses Eclipse's compiler (ECJ) instead of the Java compiler (JAVAC). When you press the run button, this is what happens behind the scenes:
+APDE uses a custom build chain for running sketches. It differs from the desktop Android mode's Gradle build primarily in that it uses Eclipse's compiler (ECJ) instead of the Java compiler (JAVAC). When you press the run button, this is what happens behind the scenes:
 
  - ANTLR Preprocessor (Android mode Processing) - basically the same as the PDE
  - AAPT (Android SDK) - creates R.java and bundles the resources
