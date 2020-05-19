@@ -7,6 +7,7 @@ More documentation:
  - [Installing Contributed Libraries](https://github.com/Calsign/APDE/wiki/Installing-Contributed-Libraries)
  - [Exporting as a Signed Package](https://github.com/Calsign/APDE/wiki/Exporting-as-a-Signed-Package)
  - [Build Targets - Wallpapers, Watch Faces, and VR](https://github.com/Calsign/APDE/wiki/Build-Targets:-Wallpapers,-Watch-Faces,-and-VR)
+ - [Preview Mode](https://github.com/Calsign/APDE/wiki/Preview-Mode)
  - [Features Overview](https://github.com/Calsign/APDE/wiki/Features-Overview)
  - [Supported Devices](https://github.com/Calsign/APDE/wiki/Supported-Devices)
  - [Required Permissions (for APDE itself)](https://github.com/Calsign/APDE/wiki/Required-Permissions)
