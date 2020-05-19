@@ -11,7 +11,7 @@ More documentation:
  - [Supported Devices](https://github.com/Calsign/APDE/wiki/Supported-Devices)
  - [Required Permissions (for APDE itself)](https://github.com/Calsign/APDE/wiki/Required-Permissions)
 
-APDE is developed by William Smith (aka Calsign or CalsignLabs) and is not supported by the Processing Foundation.
+APDE is developed by William Smith (aka Calsign or CalsignLabs). APDE is not a Processing Foundation project.
 
 ## FAQ
 
