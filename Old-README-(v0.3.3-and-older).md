@@ -6,7 +6,7 @@ APDE
 
 A [Processing](https://processing.org/) IDE for creating and running sketches on an Android device. What follows is a description of APDE's concepts, features, and basic use.
 
-You can download APDE from [Google Play](https://play.google.com/store/apps/details?id=com.calsignlabs.apde) or from the [releases page](https://github.com/Calsign/APDE/releases).
+You can download APDE from the [releases page](https://bit.ly/3wVXa6g).
 
 Background
 ----------
